@@ -38,10 +38,18 @@ Services can return :
 - Also like PUT, DELETE is idempotent
 	- Calling delete multiple times on a url shouldn’t matter
 
+> RESTFul Searching
+- Simple and easy to use
+- Typically used with GET
+	- http://localhost:8083/exercise-services/webapi/activities?duration=55&description=swimming
+- Cacheable since it is a GET
 
+> RESTFul Searching Ranges
+- For simple cases
+	- from QueryParam
+	- to QueryParam
+- http://localhost:8083/exercise-services/webapi/activities?durationFrom=30&durationTo=60
+- Very limited, but still works
 	
-
-
 	
-	
-by Karthick Kalimuthu :simple_smile::+1:
+by Karthick Kalimuthu :simple_smile: :+1:
