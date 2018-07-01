@@ -10,9 +10,10 @@ Services can return :
 - Plain Text
 - Binary/octet
 
+> myresource
 HTTP GET Request [GET] :
 - Annotated with @GET
-- Mapping is de!ned with @Path
-- The URL is de!ned through our context/servlet mapping/@Path
-- Content returned is de!ned with @Produces
+- Mapping is defined with @Path
+- The URL is defined through our context/servlet mapping/@Path
+- Content returned is defined with @Produces
 	- @Produces can take an Array of multiple types
