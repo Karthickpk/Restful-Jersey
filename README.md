@@ -1,6 +1,6 @@
 # Restful Jersey
 
-REST Overview
+> REST Overview
 REST was built with the pains of SOAP in mind
 Built on the principles of HTTP
 Services can return :
@@ -10,8 +10,7 @@ Services can return :
 - Plain Text
 - Binary/octet
 
-> myresource
-HTTP GET Request [GET] :
+> HTTP GET Request [GET]
 - Annotated with @GET
 - Mapping is defined with @Path
 - The URL is defined through our context/servlet mapping/@Path
