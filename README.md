@@ -1,17 +1,16 @@
 # Restful Jersey
-# This my document....
 
 REST Overview
 REST was built with the pains of SOAP in mind
 Built on the principles of HTTP
-Services can return:
+Services can return :
 •	XML
 •	JSON
 •	HTML
 •	Plain Text
 •	Binary/octet
 
-HTTP GET Request [GET]
+HTTP GET Request [GET] :
 •	Annotated with @GET
 •	Mapping is de!ned with @Path
 •	The URL is de!ned through our context/servlet mapping/@Path
